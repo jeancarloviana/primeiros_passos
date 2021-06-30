@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 02:23:35 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjAxOjI4OjIxICI7Mjc0NQ=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjAyOjIzOjM1ICI7ODsyODYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media, total, rec, mrec" type="Real" array="False" size=""/>
+            <assign variable="total" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <output expression="&quot;Informe o valor da Nota1&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe o valor da Nota2&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe o valor da Nota3&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Informe o valor da Nota4&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1 + n2 + n3 + n4)/4"/>
+            <assign variable="total" expression="n1 + n2 + n3 + n4"/>
+            <output expression="&quot;A soma total das notas &#233;: &quot;" newline="True"/>
+            <output expression="total" newline="True"/>
+            <output expression="&quot;Sua media &#233;: &quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media &gt;= 5">
+                <then>
+                    <output expression="&quot;Voc&#234; passou!!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; esta de recupera&#231;&#227;o!!!!&quot;" newline="True"/>
+                    <output expression="&quot;Informe a nota da recupera&#231;&#227;o: &quot;" newline="True"/>
+                    <input variable="rec"/>
+                    <assign variable="mrec" expression="(media + rec) / 2"/>
+                    <if expression="mrec &gt;= 5">
+                        <then>
+                            <output expression="&quot;Voc&#234; passou!!!!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Voc&#234; reprovou!!!!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <output expression="&quot;Sua m&#233;dia final p&#243;s recupera&#231;&#227;o &#233;: &quot;" newline="True"/>
+                    <output expression="mrec" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 04:46:57 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA0OjI1OjA5ICI7Mjc1MQ=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA0OjQ2OjU3ICI7MTsyODY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quant, cont, contagem" type="Integer" array="False" size=""/>
+            <assign variable="cont" expression="0"/>
+            <assign variable="quant" expression="0"/>
+            <output expression="&quot;Informe a quantidade de contagem&quot;" newline="True"/>
+            <input variable="quant"/>
+            <assign variable="contagem" expression="quant"/>
+            <while expression="cont &lt;= quant">
+                <output expression="&quot;contando &quot; &amp; contagem" newline="True"/>
+                <assign variable="cont" expression="cont + 1"/>
+                <assign variable="contagem" expression="contagem - 1"/>
+            </while>
+            <output expression="&quot;FIM&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

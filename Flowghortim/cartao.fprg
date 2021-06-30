@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 03:13:32 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjAyOjQ5OjMzICI7Mjc1Mg=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjAzOjEzOjMyICI7MzsyODUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nomeuser, bandeira, pagform" type="String" array="False" size=""/>
+            <declare name="numcartao" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informar a forma de pagamento: &quot;" newline="True"/>
+            <input variable="pagform"/>
+            <while expression="pagform != &quot;cartao&quot;">
+                <output expression="&quot;Aceitamos apenas cart&#227;o como forma de pagamento&quot;" newline="True"/>
+                <output expression="&quot;Informar a forma de pagamento: &quot;" newline="True"/>
+                <input variable="pagform"/>
+            </while>
+            <output expression="&quot;Informar o nome do titular do cart&#227;o: &quot;" newline="True"/>
+            <input variable="nomeuser"/>
+            <output expression="&quot;Informar a bandeira do cart&#227;o: &quot;" newline="True"/>
+            <input variable="bandeira"/>
+            <output expression="&quot;Informe o numero do cart&#227;o: &quot;" newline="True"/>
+            <input variable="numcartao"/>
+            <output expression="&quot;O numero do cart&#227;o &#233;: &quot; &amp; numcartao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

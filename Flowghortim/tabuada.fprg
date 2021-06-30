@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 06:19:40 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA1OjE4OjUyICI7Mjc1Mg=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA2OjE5OjQwICI7NDsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, count, produto" type="Integer" array="False" size=""/>
+            <assign variable="produto" expression="0"/>
+            <assign variable="base" expression="0"/>
+            <assign variable="count" expression="0"/>
+            <output expression="&quot;Informe a base que voc&#234; quer calcular, insira numeros inteiros de 1 a 10: &quot;" newline="True"/>
+            <input variable="base"/>
+            <for variable="count" start="0" end="10" direction="inc" step="1">
+                <output expression="&quot;A tabuada do &quot; &amp; base &amp; &quot; &#233; &quot; &amp; base &amp; &quot; X &quot; &amp; count &amp; &quot; = &quot; &amp; base*count" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

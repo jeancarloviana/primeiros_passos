@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-26 05:17:36 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA0OjQ3OjAxICI7Mjc0Nw=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDYtMjY7IjA1OjE3OjM2ICI7MTsyODYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador, tipo, cont, contador1" type="Integer" array="False" size=""/>
+            <assign variable="contador1" expression="0"/>
+            <assign variable="tipo" expression="0"/>
+            <assign variable="cont" expression="1"/>
+            <assign variable="contador" expression="0"/>
+            <output expression="&quot;Informe quanto quer contar: &quot;" newline="True"/>
+            <input variable="contador"/>
+            <output expression="&quot;informe o tipo de contagem:&#13;&#10;1 - para contador normal&#13;&#10;2 - para contador regressivo&quot;" newline="True"/>
+            <input variable="tipo"/>
+            <if expression="tipo == 1">
+                <then>
+                    <for variable="contador1" start="1" end="contador" direction="inc" step="1">
+                        <output expression="&quot;Contando: &quot; &amp; cont" newline="True"/>
+                        <assign variable="cont" expression="cont +1"/>
+                    </for>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="cont" expression="contador"/>
+                    <for variable="contador1" start="contador" end="1" direction="dec" step="1">
+                        <output expression="&quot;Regredindo: &quot; &amp; cont" newline="True"/>
+                        <assign variable="cont" expression="cont - 1"/>
+                    </for>
+                    <output expression="&quot;FIM&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
