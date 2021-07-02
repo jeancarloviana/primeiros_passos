@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-01 04:43:46 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA0OjE5OjAxICI7Mjc0MA=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA0OjQzOjQ2ICI7MTsyODU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="sal, tempo" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Informe o salario&quot;" newline="True"/>
+            <input variable="sal"/>
+            <output expression="&quot;Informe o tempo&quot;" newline="True"/>
+            <input variable="tempo"/>
+            <if expression="tempo &lt; 10">
+                <then>
+                    <if expression="tempo &gt;3">
+                        <then>
+                            <output expression="&quot;seu salario tera aumento de 12.5%&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tempo ==3">
+                                <then>
+                                    <output expression="&quot;Vc tera um aumento de 3%&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;N&#227;o ter&#225; aumento&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Aumento de 20%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-01 05:33:30 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA1OjA4OjI2ICI7Mjc0Ng=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA1OjMzOjMwICI7MjsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AB, BC, CA" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe lado AB&quot;" newline="True"/>
+            <input variable="AB"/>
+            <output expression="&quot;Informe lado BC&quot;" newline="True"/>
+            <input variable="BC"/>
+            <output expression="&quot;Informe lado CA&quot;" newline="True"/>
+            <input variable="CA"/>
+            <if expression="AB &lt; BC + CA">
+                <then>
+                    <if expression="BC &lt; AB + CA">
+                        <then>
+                            <if expression="CA &lt; AB + BC">
+                                <then>
+                                    <if expression="AB == BC &amp;&amp; BC == CA &amp;&amp; AB == CA">
+                                        <then>
+                                            <output expression="&quot;Forma um tri&#226;ngulo equil&#225;tero&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="AB != BC &amp;&amp; BC != CA &amp;&amp; AB != CA">
+                                                <then>
+                                                    <output expression="&quot;Forma um tri&#226;ngulo escaleno&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Forma um tri&#226;ngulo is&#243;celes&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <output expression="&quot;N&#227;o forma um tri&#226;ngulo&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;N&#227;o forma um tri&#226;ngulo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o forma um tri&#226;ngulo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

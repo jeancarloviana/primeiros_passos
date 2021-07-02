@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jeanc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-01 06:10:28 "/>
+        <attribute name="created" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA1OjQ3OjE2ICI7Mjc0OA=="/>
+        <attribute name="edited" value="amVhbmM7REVTS1RPUC1KMjVTTEozOzIwMjEtMDctMDE7IjA2OjEwOjI4ICI7MTsyODUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mao, comp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe m&#227;o&quot;" newline="True"/>
+            <input variable="mao"/>
+            <assign variable="comp" expression="1"/>
+            <if expression="mao != comp">
+                <then>
+                    <if expression="mao == pedra &amp;&amp; comp == tesoura">
+                        <then>
+                            <output expression="&quot;Vc ganhou&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="mao == tesoura &amp;&amp; comp == papel">
+                                <then>
+                                    <output expression="&quot;VC ganhou&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="mao == papel &amp;&amp; comp == pedra">
+                                        <then>
+                                            <output expression="&quot;Vc ganhou&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Vc perdeu&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Deu empate&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
