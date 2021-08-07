@@ -1,11 +1,11 @@
-######Instalando Google Chrome no Ubuntu 16.04 (64 bits)##############
+##Instalando Google Chrome no Ubuntu 16.04 (64 bits).
 
 
 Para o instalar o Google Chrome Stable no Ubuntu 16.04 e distribuições derivadas, abra um terminal e siga os passos abaixo.
 
-1. Atualize seu sistema:
+### 1. Atualize seu sistema:
 
-#sudo apt-get update && sudo apt-get upgrade
+```#sudo apt-get update && sudo apt-get upgrade```
 
 2. Instale o Gdebi (uma ferramenta com interface gráfica, que permite instalar facilmente pacotes ".deb" e que corrige automaticamente os problemas de dependências):
 
