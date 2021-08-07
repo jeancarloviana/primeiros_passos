@@ -1,4 +1,4 @@
-package one.innovation.digital.pessoa;
+package oneinnovationdigital.pessoa;
 
 public class Pessoa {
 

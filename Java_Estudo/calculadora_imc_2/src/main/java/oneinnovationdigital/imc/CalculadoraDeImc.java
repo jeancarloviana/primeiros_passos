@@ -1,6 +1,6 @@
-package one.innovation.digital.imc;
+package oneinnovationdigital.imc;
 
-import one.innovation.digital.pessoa.Pessoa;
+import oneinnovationdigital.pessoa.Pessoa;
 
 public class CalculadoraDeImc {
 

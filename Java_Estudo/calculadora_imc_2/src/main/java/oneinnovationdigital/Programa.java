@@ -1,7 +1,7 @@
-package one.innovation.digital;
+package oneinnovationdigital;
 
-import one.innovation.digital.imc.CalculadoraDeImc;
-import one.innovation.digital.pessoa.Pessoa;
+import oneinnovationdigital.imc.CalculadoraDeImc;
+import oneinnovationdigital.pessoa.Pessoa;
 
 public class Programa {
 
