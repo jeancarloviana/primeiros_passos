@@ -9,7 +9,7 @@ public class Converter {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite 'C' para converter para Celsius e 'F' para converveter para Fahrenheit");
         System.out.print("Digite Tipo (C/F): ");
-        String TipoTemp = resp.next();
+        String TipoTemp = teclado.next();
         System.out.print("Digite o valor: ");
         float VT = teclado.nextFloat();
         
