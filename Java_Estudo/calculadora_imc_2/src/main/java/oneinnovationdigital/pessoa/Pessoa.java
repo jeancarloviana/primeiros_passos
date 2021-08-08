@@ -13,14 +13,17 @@ public class Pessoa {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public Double getAltura() {
+
         return altura;
     }
 
     public Double getPeso() {
+
         return peso;
     }
 
