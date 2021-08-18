@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d85a20-b751-4b2a-baa7-ced1771e291b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/main/Janela.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aula_10_ControleDeFluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aula_11_ControleFluxoOperadorTernario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aula_13_Controle_Fluxo_Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calendario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_1_ControleFluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_2_ControleFluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Janela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OlaMundooi.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/exercicio_aula_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Aula_7_OperadoresAtribuicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Aula_7_OperadoresAtribuicao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_7_OperadoresAtribuicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_7_OperadoresAtribuicao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../teste2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicio_2_ControleFluxo">
+  <component name="RunManager" selected="Application.Aula_16_ControleFluxoForWhileDoWhile">
     <configuration name="Aula_11_ControleFluxoOperadorTernario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula_11_ControleFluxoOperadorTernario" />
       <module name="java_basics.main" />
@@ -86,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calendario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calendario" />
+    <configuration name="Aula_16_ControleFluxoForWhileDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula_16_ControleFluxoForWhileDoWhile" />
       <module name="java_basics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula_16_ControleFluxoForWhileDoWhile" />
         <item itemvalue="Application.Exercicio_2_ControleFluxo" />
         <item itemvalue="Application.Aula_13_Controle_Fluxo_Switch" />
         <item itemvalue="Application.Exercicio_1_ControleFluxo" />
         <item itemvalue="Application.Aula_11_ControleFluxoOperadorTernario" />
-        <item itemvalue="Application.Calendario" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628448115033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="novos exercicios">
+      <created>1629245859278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629245859279</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
