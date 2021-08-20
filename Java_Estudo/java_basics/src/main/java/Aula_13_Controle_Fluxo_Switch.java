@@ -55,7 +55,7 @@ public class Aula_13_Controle_Fluxo_Switch {
             default:
                 System.out.println(sexo);
                 System.out.println("Valor digitado errado");
-                break;
+                break;//comando break apenas nas repetiçoes while, do/while, for e switch.
         }
 
 

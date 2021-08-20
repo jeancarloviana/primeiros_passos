@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d85a20-b751-4b2a-baa7-ced1771e291b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ArquivoCriado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Aula_18_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_3_DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_4_Bootcamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_5_EntradaSaidaDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Aula_16_ControleFluxoForWhileDoWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Aula_16_ControleFluxoForWhileDoWhile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_13_Controle_Fluxo_Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_13_Controle_Fluxo_Switch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,21 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula_16_ControleFluxoForWhileDoWhile">
-    <configuration name="Aula_11_ControleFluxoOperadorTernario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula_11_ControleFluxoOperadorTernario" />
-      <module name="java_basics.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Aula_13_Controle_Fluxo_Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula_13_Controle_Fluxo_Switch" />
-      <module name="java_basics.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula_18_Arrays">
     <configuration name="Aula_16_ControleFluxoForWhileDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula_16_ControleFluxoForWhileDoWhile" />
       <module name="java_basics.main" />
@@ -81,15 +74,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio_1_ControleFluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_1_ControleFluxo" />
+    <configuration name="Aula_18_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula_18_Arrays" />
       <module name="java_basics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio_2_ControleFluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio_2_ControleFluxo" />
+    <configuration name="Exercicio_3_DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_3_DoWhile" />
+      <module name="java_basics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio_4_Bootcamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_4_Bootcamp" />
+      <module name="java_basics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio_5_EntradaSaidaDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio_5_EntradaSaidaDados" />
       <module name="java_basics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio_5_EntradaSaidaDados" />
+        <item itemvalue="Application.Exercicio_4_Bootcamp" />
+        <item itemvalue="Application.Exercicio_3_DoWhile" />
+        <item itemvalue="Application.Aula_18_Arrays" />
         <item itemvalue="Application.Aula_16_ControleFluxoForWhileDoWhile" />
-        <item itemvalue="Application.Exercicio_2_ControleFluxo" />
-        <item itemvalue="Application.Aula_13_Controle_Fluxo_Switch" />
-        <item itemvalue="Application.Exercicio_1_ControleFluxo" />
-        <item itemvalue="Application.Aula_11_ControleFluxoOperadorTernario" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629245859279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="novos exercicios">
+      <created>1629248143540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629248143540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
