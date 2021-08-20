@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d85a20-b751-4b2a-baa7-ced1771e291b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArquivoCriado.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aula_18_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_3_DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_4_Bootcamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicio_5_EntradaSaidaDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Aula_16_ControleFluxoForWhileDoWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Aula_16_ControleFluxoForWhileDoWhile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Aula_18_Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Aula_18_Arrays.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_13_Controle_Fluxo_Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_13_Controle_Fluxo_Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_16_ControleFluxoForWhileDoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_18_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_18_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +54,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -142,13 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629248143540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="novos exercicios 20-08">
+      <created>1629490787857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629490787857</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="novos exercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="novos exercicios" />
+    <MESSAGE value="novos exercicios 20-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="novos exercicios 20-08" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_basics$exercicio_aula_6.ic" NAME="exercicio_aula_6 Coverage Results" MODIFIED="1628431039231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

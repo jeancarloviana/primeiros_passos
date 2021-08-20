@@ -7,7 +7,7 @@ public class Aula_18_Arrays {
 
     public static void main(String[] args) throws IOException {
 
-        /*
+/*
         //sintaxe para declarar uma array
 
         //referenciando
@@ -40,7 +40,6 @@ public class Aula_18_Arrays {
             System.out.println(nomea[i] + " sua idade é: " + idadea[i] + " anos");
 
         }
-         */
 
         //tentando criar um array:
 
@@ -75,6 +74,21 @@ public class Aula_18_Arrays {
 
         for (h = 0; h < i; h++){
             System.out.printf("O seu nome e %s voce tem %d seu sexo e %s. \n", cadastronome.get(h), cadastroidade.get(h), cadastrosexo.get(h));
+        }
+*/
+        Integer[] numero = new Integer[]{1, 2, 3, 4, 5}; //declarando array e instanciando
+        int[] numero1 = new int[5];//declarando
+        numero1 = new int[]{1, 2, 3, 4, 5, 6};//instanciando
+        int[] numero2 = {10, 22, 3485, 4, 5}; //instanciando array de 4
+
+/*        for (Integer i = 0; i < 5; i++){ //variavel.length ou tamanho do array  numero.length
+            System.out.printf("teste: " + numero [i] + "\n");
+        }
+        for (Integer i = 0; i < numero1.length; i++){ //variavel.length ou tamanho do array
+            System.out.printf("teste: " + numero1 [i] + "\n");
+        }*/
+        for (int aux : numero2) {
+            System.out.println(aux);
         }
 
     }
