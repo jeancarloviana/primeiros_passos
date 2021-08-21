@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d85a20-b751-4b2a-baa7-ced1771e291b" name="Changes" comment="" />
+    <list default="true" id="f3d85a20-b751-4b2a-baa7-ced1771e291b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aula_21_ArrayMultiimensionais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aula_21_ArrayMultiimensionais.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,16 +54,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula_18_Arrays">
-    <configuration name="Aula_16_ControleFluxoForWhileDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula_16_ControleFluxoForWhileDoWhile" />
+  <component name="RunManager" selected="Application.Aula_21_ArrayMultiimensionais">
+    <configuration name="Aula_18_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula_18_Arrays" />
       <module name="java_basics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aula_18_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula_18_Arrays" />
+    <configuration name="Aula_21_ArrayMultiimensionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula_21_ArrayMultiimensionais" />
       <module name="java_basics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula_21_ArrayMultiimensionais" />
         <item itemvalue="Application.Exercicio_5_EntradaSaidaDados" />
         <item itemvalue="Application.Exercicio_4_Bootcamp" />
         <item itemvalue="Application.Exercicio_3_DoWhile" />
         <item itemvalue="Application.Aula_18_Arrays" />
-        <item itemvalue="Application.Aula_16_ControleFluxoForWhileDoWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -134,14 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1629490787857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="novos exercicios aula 21">
+      <created>1629500705186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629500705186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="novos exercicios" />
     <MESSAGE value="novos exercicios 20-08" />
-    <option name="LAST_COMMIT_MESSAGE" value="novos exercicios 20-08" />
+    <MESSAGE value="novos exercicios aula 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="novos exercicios aula 21" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_basics$exercicio_aula_6.ic" NAME="exercicio_aula_6 Coverage Results" MODIFIED="1628431039231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
